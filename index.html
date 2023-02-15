@@ -35,8 +35,30 @@
 <!------------------------INIZIO MAIN--------------------------->    
     <main id="ms_maincont">
 <!------------------------INIZIO SIDEBAR--------------------------->        
-         <section id="ms_sidebar">
-                 
+         <section id="ms_sidebar" class="d-flex flex-column justify-content-between  ">
+                 <div id="ms_topsidebar" class="">
+                     <div class="row d-flex flex-column text-white px-2">
+                        <div class="col-12 mt-2">
+                            <span>Home</span>
+                        </div>
+
+                        <div class="col-12 mt-2">
+                            <span>Stats</span>
+
+                        </div>
+
+                        <div class="col-12 mt-2">
+                            <span>Signal</span>
+
+                        </div>
+        
+
+                     </div>
+                 </div>
+
+                 <div id="ms_bottomsidebar" class="">
+
+                 </div>
 
         </section>
 
@@ -53,22 +75,94 @@
 <!------------------------header di main --------------------------->             
                     <div id="ms_mainheader" class="container-fluid text-white">
                         <div class="row">
-                            <div class="col-12 col-lg-4 ">
+                            <div class="col-12 col-md-4 ">
                                 <div>
                                     <h2>Boolean</h2>
                                 </div>
                             </div>
 
-                            <div class="col-12 col-lg-4">
+                            <div class="col-12 col-md-4">
                                 <div>
                                     <p> Studenti online negli ultimi 30 minuti <br/> 125 </p>
                                 </div>
  
                             </div>
 
-                            <div class="col-12 col-lg-4">
+                            <div class="col-12 col-md-4 d-flex align-items-center ">
                                 <div>
-                                    <p>Nuovo Studente</p>
+                                    <span>Nuovo Studente</span>
+                                </div>
+                                <div>
+                                    <button class="btn text-white border-white rounded mt-2 ms-3 mb-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-plus"></i></button>
+                                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                                      <div class="offcanvas-header">
+                                        <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci un nuovo Studente</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                      </div>
+                                      <div id="ms_canvas" class="offcanvas-body">
+                                        <form class="row g-2">
+                                            <div class="col-md-6">
+                                                <label for="inputName" class="form-label">Nome</label>
+                                                <input type="text" class="form-control" id="inputName">
+                                              </div>
+                                              <div class="col-md-6">
+                                                <label for="inputPassword4" class="form-label">Cognome</label>
+                                                <input type="text" class="form-control" id="inputPassword4">
+                                              </div>
+                                            <div class="col-md-6">
+                                              <label for="inputEmail4" class="form-label">Email</label>
+                                              <input type="email" class="form-control" id="inputEmail4">
+                                            </div>
+                                            <div class="col-md-6">
+                                              <label for="inputPassword4" class="form-label">Password</label>
+                                              <input type="password" class="form-control" id="inputPassword4">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <label for="inputEmail4" class="form-label">Email</label>
+                                                <input type="email" class="form-control" id="inputEmail4">
+                                              </div>
+                                              <div class="col-md-6">
+                                                <label for="inputPassword4" class="form-label">Password</label>
+                                                <input type="password" class="form-control" id="inputPassword4">
+                                              </div>
+                                            <div class="col-12">
+                                              <label for="inputindirizzo" class="form-label">Indirizzo</label>
+                                              <input type="text" class="form-control" id="inputindirizzo" >
+                                            </div>
+                                            <div class="col-md-6">
+                                              <label for="inputCity" class="form-label">Città</label>
+                                              <input type="text" class="form-control" id="inputCity">
+                                            </div>
+                                            <div class="col-md-4">
+                                              <label for="inputState" class="form-label">Stato</label>
+                                              <select id="inputState" class="form-select">
+                                                <option selected>Scegli</option>
+                                                <option>...</option>
+                                              </select>
+                                            </div>
+                                            <div class="col-md-2">
+                                              <label for="inputZip" class="form-label">Cap</label>
+                                              <input type="text" class="form-control" id="inputZip">
+                                            </div>
+                                            <div class="input-group mb-3 mt-3">
+                                                <input type="file" class="form-control" id="inputGroupFile02">     
+                                              </div>
+                                            <div class="col-12">
+                                              <div class="form-check mt-2 mb-2">
+                                                <input class="form-check-input" type="checkbox" id="gridCheck">
+                                                <label class="form-check-label" for="gridCheck">
+                                                  Seleziona per Proseguire 
+                                                </label>
+                                              </div>
+                                            </div>
+                                            <div class="col-12">
+                                              <button type="submit" class="btn btn-primary">Salva</button>
+                                              <button type="reset" class="btn btn-warning">Svuota</button>
+                                            </div>
+                                            
+                                          </form>
+                                      </div>
+                                    </div>
                                 </div>
 
                             </div>
