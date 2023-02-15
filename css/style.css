@@ -12,7 +12,7 @@
     max-width: 60px;
 }
 .ms_bellcolor{
-    color: rgb(189, 129, 52);
+    color: rgb(254, 138, 0);
 }
 /*MAIN*/
 #ms_maincont{
@@ -29,10 +29,12 @@
     background-color: rgb(4, 30, 52);
 }
 #ms_bottomsidebar{
-    height: 100px;
-    background-color: brown;
-}
+    height: 40px;
 
+}
+.ms_backbad{
+    background-color: rgb(21, 90, 185);
+}
 
 
 /*main content*/
@@ -43,6 +45,7 @@
 }
 #ms_mainheader{
     background-color: rgb(27, 114, 232);
+    width: 100%;
 }
 
 
@@ -61,6 +64,7 @@
     --bs-offcanvas-transition: transform 0.3s ease-in-out;
     --bs-offcanvas-title-line-height: 1.5;
   }
+
 
 
 /*MEDIA QUERRY*/
