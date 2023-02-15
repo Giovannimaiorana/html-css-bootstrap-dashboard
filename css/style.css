@@ -8,6 +8,12 @@
 #ms_header{
     height: 60px;
 }
+#ms_logosmall{
+    max-width: 60px;
+}
+.ms_bellcolor{
+    color: rgb(189, 129, 52);
+}
 /*MAIN*/
 #ms_maincont{
     height: calc(100vh - 60px);
@@ -38,6 +44,23 @@
 #ms_mainheader{
     background-color: rgb(27, 114, 232);
 }
+
+
+/*offcanvas*/
+.offcanvas, .offcanvas-lg, .offcanvas-md, .offcanvas-sm, .offcanvas-xl, .offcanvas-xxl {
+    --bs-offcanvas-zindex: 1045;
+    --bs-offcanvas-width: 700px;
+    --bs-offcanvas-height: 30vh;
+    --bs-offcanvas-padding-x: 1rem;
+    --bs-offcanvas-padding-y: 1rem;
+    --bs-offcanvas-color: var(--bs-body-color);
+    --bs-offcanvas-bg: var(--bs-body-bg);
+    --bs-offcanvas-border-width: var(--bs-border-width);
+    --bs-offcanvas-border-color: var(--bs-border-color-translucent);
+    --bs-offcanvas-box-shadow: 0 0.125rem 0.25rem rgba(var(--bs-body-color-rgb), 0.075);
+    --bs-offcanvas-transition: transform 0.3s ease-in-out;
+    --bs-offcanvas-title-line-height: 1.5;
+  }
 
 
 /*MEDIA QUERRY*/
