@@ -33,6 +33,9 @@
     height: 100%;
     background-color: bisque;
 }
+#ms_mainheader{
+    background-color: rgb(27, 114, 232);
+}
 
 
 /*MEDIA QUERRY*/
