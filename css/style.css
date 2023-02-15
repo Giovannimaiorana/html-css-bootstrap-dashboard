@@ -6,9 +6,7 @@
 
 /*HEADER*/
 #ms_header{
-    background-color: red;
     height: 60px;
-    
 }
 /*MAIN*/
 #ms_maincont{
@@ -21,8 +19,8 @@
 /*sidebar*/
 #ms_sidebar{
     width: 60px;
-    height: calc(100vh - 60px);
-    background-color: black;
+    height: 100vh;
+    background-color: rgb(4, 30, 52);
 }
 
 
@@ -31,7 +29,7 @@
 #ms_maincontent{
     width: calc(100vw - 60px) ;
     height: 100%;
-    background-color: bisque;
+
 }
 #ms_mainheader{
     background-color: rgb(27, 114, 232);
