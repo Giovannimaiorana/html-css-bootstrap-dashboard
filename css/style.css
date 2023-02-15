@@ -3,3 +3,47 @@
     padding: 0;
     box-sizing: border-boxc;
 }
+
+/*HEADER*/
+#ms_header{
+    background-color: red;
+    height: 60px;
+    
+}
+/*MAIN*/
+#ms_maincont{
+    height: calc(100vh - 60px);
+    display: flex;
+    flex-wrap: nowrap
+    
+}
+
+/*sidebar*/
+#ms_sidebar{
+    width: 60px;
+    height: calc(100vh - 60px);
+    background-color: black;
+}
+
+
+
+/*main content*/
+#ms_maincontent{
+    width: calc(100vw - 60px) ;
+    height: 100%;
+    background-color: bisque;
+}
+
+
+/*MEDIA QUERRY*/
+@media screen and (min-width: 992px) {
+    #ms_sidebar{
+        width: 200px;
+        height: calc(100vh - 60px); 
+    }
+    #ms_maincontent{
+        width: calc(100vw - 200px) ;
+        height: 100%;
+    }
+    
+} 
