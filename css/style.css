@@ -27,6 +27,7 @@
     width: 60px;
     height: calc(100vh - 60px);
     background-color: rgb(4, 30, 52);
+    background-image: url(../img/sidebar-bg.png);
 }
 #ms_bottomsidebar{
     height: 40px;
