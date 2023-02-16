@@ -38,6 +38,7 @@
 }
 
 
+
 /*main content*/
 #ms_maincontent{
     width: calc(100vw - 60px) ;
@@ -80,3 +81,10 @@
     }
     
 } 
+/*HOVER*/
+#ms_iconhover:hover{
+   background-color: grey;
+}
+#ms_bottomsidebar:hover{
+    background-color: grey;
+}

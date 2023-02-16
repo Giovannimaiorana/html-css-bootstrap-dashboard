@@ -22,7 +22,11 @@
                 </div>
 
                 <div class="col-8">
-                    <input class="form-control me-2 mt-2 mb-2" type="search" placeholder= " Prova a cercare: Lezioni di Laravel">
+                  <div class="input-group mb-3">
+                    <span class="input-group-text mt-3 border-end-0 bg-transparent" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
+                    <input type="text" class="form-control mt-3 border-start-0 " placeholder="Prova a cercare: lezioni di Laravel" aria-label="Username" aria-describedby="basic-addon1">
+                  </div>
+                  
                 </div>
 
                 <div class="col-2 text-center mt-3 ">
@@ -53,18 +57,18 @@
          <section id="ms_sidebar" class="d-flex flex-column justify-content-between  ">
                  <div id="ms_topsidebar" class="">
                      <div class="row d-flex flex-column text-white px-2">
-                        <div class="col-12 mt-2 ms-2">
+                        <div id="ms_iconhover" class="col-12 mt-2 ms-1">
                             <a class=" text-decoration-none " href="#"> <i class="fa-solid fa-house text-white"></i> <span class=" text-white d-none d-lg-inline "> Home</span></a>
 
                         </div>
 
-                        <div class="col-12 mt-2 ms-2">
+                        <div id="ms_iconhover" class="col-12 mt-2 ms-1">
                             <a class=" text-decoration-none " href="#"> <i class="fa-solid fa-chart-simple text-white"></i> <span class=" text-white d-none d-lg-inline"> Stats</span></a>
 
 
                         </div>
 
-                        <div class="col-12 mt-2 ms-1">
+                        <div id="ms_iconhover" class="col-12 mt-2 ms-1">
                             <a class=" text-decoration-none " href="#"> <i class="fa-solid fa-signal text-white " ></i> <span class=" text-white d-none d-lg-inline"> Signals</span></a>
 
                         </div>
@@ -73,8 +77,8 @@
                      </div>
                  </div>
 
-                 <div id="ms_bottomsidebar" class="">
-                    <a class=" text-decoration-none ms-4 mt-3 " href="#"> <i class="fa-solid fa-gear text-white "></i> <span class=" text-white d-none d-lg-inline ms-2"> Admin</span></a>
+                 <div id="ms_bottomsidebar" class=" col-12 ">
+                    <a  class=" text-decoration-none ms-4 mt-4" href="#"> <i class="fa-solid fa-gear text-white "></i> <span class=" text-white d-none d-lg-inline ms-2"> Admin</span></a>
 
                  </div>
 
@@ -105,7 +109,7 @@
                                     <span class="badge rounded-pill ms_backbad text-white"><i class="fa-solid fa-plus"></i></span>
                                     <span class="badge rounded-pill ms_backbad text-white d-none d-lg-inline">Boolean Mobile App</span>
                                     <span class="badge rounded-pill ms_backbad text-white d-none d-lg-inline">Boolean web app</span>
-                                    <span class="badge rounded-pill ms_backbad text-white d-none  d-lg-inline">Boolean blog app</span>
+                                    <span class="badge rounded-pill ms_backbad text-white d-none d-lg-none d-xl-inline">Boolean blog app</span>
                                 </div>
                                 
                             </div> 
@@ -224,7 +228,7 @@
                                                     <td class="col-1 col-md-2 d-none d-lg-table-cell " scope="col">15 Feb 2021</td>
                                                     <td class="col-1 col-md-2 d-none d-lg-table-cell " scope="col">20%</td>
                                                     <td class="col-3 col-md-2" scope="col"><h6> <span class="badge text-bg-success">Done</span></h6></td>
-                                                    <td class="col-3 col-md-2" scope="col"> <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-pen"></i></button> <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button></td>
+                                                    <td class="col-3 col-md-2" scope="col"> <button type="button" class="btn btn-outline-secondary "><i class="fa-solid fa-pen"></i></button> <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button></td>
                                                   </tr>
                                                   <tr>
                                                     <td class="col-6" scope="col">Classe 76</td>
