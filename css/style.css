@@ -43,12 +43,17 @@
 #ms_maincontent{
     width: calc(100vw - 60px) ;
     height: 100%;
+    background-color: white;
 
 }
 #ms_mainheader{
     background-color: rgb(27, 114, 232);
     width: 100%;
 }
+#ms_avatrclass{
+    width: 20px;
+}
+
 
 
 /*offcanvas*/
@@ -79,6 +84,9 @@
         width: calc(100vw - 200px) ;
         height: 100%;
     }
+    tr td:first-child{
+        width: 400px;
+    }
     
 } 
 /*HOVER*/
@@ -87,4 +95,15 @@
 }
 #ms_bottomsidebar:hover{
     background-color: grey;
+}
+#ms_bellhov:hover{
+    font-size: 25px;
+    color: rgb(255, 162, 47);
+}
+#ms_buttonhov:hover {
+    font-size: 20px;
+    background-color:rgb(30, 90, 185);
+}
+tr:hover {
+    background-color: lightgrey;
 }
